@@ -6,7 +6,7 @@ import google.generativeai as genai
 from datetime import datetime
 import json
 
-genai_api_key = "AIzaSyCmA60V7hTDKrV9226UCGFms8boS-Cg91E"
+genai_api_key = "AIzaSyCsMnbjIqxwaSOW4MvFQK9gIGHJEawHklU"
 if not genai_api_key:
     st.error("Please set up your GEMINI_API_KEY in the .env file")
     st.stop()
